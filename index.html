@@ -11,6 +11,28 @@
     <link rel ="stylesheet" href="main.css"
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+    .bg-1 {
+    	background-color: #fca787;
+    	color: #ffffff;
+    }
+
+    .bg-2 {
+    	background-color: #474e5d;
+    	color: #ffffff;
+    }
+
+	.bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  	}
+  	.container-fluid {
+    	padding-top: 70px;
+    	padding-bottom: 70px;
+	}
+  </style>
+
   </head>
 
   <body>
@@ -30,18 +52,19 @@
     </nav>
     <!-- End code for the navigation bar -->
     
-    <h1>Welcome to my blog</h1>
-    <p>Currently, this blog will be used for my CS371p class.</p>
+    <!-- Start code for header -->
+    <div class ="container-fluid bg-1 text-center">
+	    <h1>Welcome to my blog</h1>
+	    <p>Currently, this blog will be used for my CS371p class.</p>
 
-    <!-- Start code for profile picture -->
-    <article>
-      <img src="CATHERINE.jpg" class="img-rounded" alt="Profile Picture"> 
-    </article>
-    <!-- End code for profile picture -->
+		<img src="CATHERINE.jpg" class="img-circle" alt="Profile Picture"> 
+	</div>
+    <!-- End code for header -->
+
 
     <!-- Start code for About Me -->
-    <div class ="container">
-      <h3>About Me: </h3>
+    <div class ="container-fluid bg-2 text-center">
+      <h1>About Me: </h1>
       <p>Hello there. My name is Catherine Lu. Currently I am a sophomore at University of Texas at Austin studying computer science.</p>
     </div>
     <!-- End code for About Me -->

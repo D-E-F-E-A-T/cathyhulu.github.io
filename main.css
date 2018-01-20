@@ -1,16 +1,12 @@
 body {
 	font-family: Verdana;
-	width: 800px;
 }
 
-body article {
+body div img {
 	width: 300px;
 	border: 3px rgba(60,60,60);
 	padding: 5px;
 	background-color:rgba(60,60,60);
 	color: white;
 
-}
-body article img {
-	width: 100%;
 }
